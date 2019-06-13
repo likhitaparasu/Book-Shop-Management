@@ -28,9 +28,9 @@ public class BookShop{
         itemAvailable[16].addItem("Money Ball", 84);
 
         
-        System.out.println("S.no" +"    "+"itemName"+"     "+ "MRP");
+        System.out.println("S.no" +"    "+"itemNa"+"     "+ "MRP");
         for (int i=0;i<=16;i++){
-            System.out.println((i+1)+"    "+itemAvailable[i].itemName+ "    "+itemAvailable[i].mrp + '\n') ;
+            System.out.println((i+1)+"    "+itemAvailable[i].itemNa+ "    "+itemAvailable[i].mrp + '\n') ;
         }
         System.out.println("Select from the above product and write its quantity[-1 to exit]:(ex- 3 6 , this means you want the 3rd product and the quantity should be 6. )");
         

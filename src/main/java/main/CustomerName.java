@@ -3,15 +3,15 @@ package main;
 import java.util.Scanner;
 
 public class CustomerName{
-	String name;
+	String nam;
 
 	public String getName() {
 		
-		return name;
+		return nam;
 	}
 
 	public void setName(String name) {
-		this.name=name;
+		this.nam=nam;
 	}
 	
 }
